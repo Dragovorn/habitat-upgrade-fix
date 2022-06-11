@@ -5,5 +5,5 @@ tags={
 }
 name="Habitat Upgrade Fix"
 supported_version="3.4.*"
-path="~/.local/share/Paradox Interactive/Stellaris/mod/habupfix"
+path="mod/habupfix"
 remote_file_id="2813895036"
