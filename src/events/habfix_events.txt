@@ -1,0 +1,41 @@
+namespace = habfix
+
+event = {
+	id = habfix.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			every_owned_planet = {
+				limit = {
+					exists = owner
+					is_artificial = yes
+					is_planet_class = pc_habitat
+				}
+				if = {
+					limit = {
+						has_planet_flag = advanced_habitat
+						not = {
+							has_modifier = habfix_upgrade_1
+						}
+					}
+					add_modifier = {
+						modifier = habfix_upgrade_1
+					}
+				}
+				if = {
+					limit = {
+						has_planet_flag = advanced_habitat_2
+						not = {
+							has_modifier = habfix_upgrade_2
+						}
+					}
+					add_modifier = {
+						modifier = habfix_upgrade_2
+					}
+				}
+			}
+		}
+	}
+}

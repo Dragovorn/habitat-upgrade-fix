@@ -1,0 +1,25 @@
+# Context; GPM adds icon_frame 11, it's the habitat cog icon.
+
+# First Upgrade
+habfix_upgrade_1 = {
+        planet_districts_cost_mult = -0.10
+        building_time_mult = -0.10
+        planet_buildings_cost_mult = -0.10
+        bio_pop_growth_speed = 0.05
+	planet_max_buildings_add = 1
+	planet_max_districts_add = 2
+	icon = mod_country_starbase_capacity_add
+	icon_frame = 11
+}
+
+# Second Upgrade
+habfix_upgrade_2 = {
+	planet_districts_cost_mult = -0.20
+        building_time_mult = -0.20
+	planet_buildings_cost_mult = -0.20
+        bio_pop_growth_speed = 0.15
+	planet_max_buildings_add = 2
+	planet_max_districts_add = 3
+	icon = mod_country_starbase_capacity_add
+	icon_frame = 11
+}
